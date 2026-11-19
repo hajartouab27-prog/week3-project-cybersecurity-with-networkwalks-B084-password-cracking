@@ -78,3 +78,21 @@ Password-cracking skills carry real potential for harm if misused; applying them
 Any cracked credentials, hash values, or screenshots containing sensitive data were handled carefully and are not shared outside the scope of this educational documentation.
 The report emphasizes responsible disclosure and documentation practices consistent with professional penetration testing standards, focusing on risk analysis and mitigation rather than exploitation for its own sake.
 Recommendations for defense are included alongside the offensive findings, consistent with the dual purpose of this kind of exercise: understanding attacker techniques in order to build better defenses.
+
+## Author
+
+**Project completed as part of the Cybersecurity Internship Program at NetworkWalks — Batch B084.**
+
+This repository documents the practical work completed during the third week's project of the program.
+
+## Project Information
+
+| Category | Details |
+|---|---|
+| Program | Cybersecurity Internship at NetworkWalks |
+| Batch | B084 |
+| Week | 03 |
+| Project | Cybersecurity & Password Cracking |
+| Main Tools | JtR John & Johny, Kali Linux, NetworkWalks tools |
+| Repository | GitHub |
+
