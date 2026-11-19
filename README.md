@@ -30,34 +30,35 @@ Identified the password-protected file to be used as the target and confirmed it
 ### Hash extraction
 Used the relevant John the Ripper helper script or a hash extractor website to extract the file’s password-verification data into a crackable hash format (for example, zip2john, pdf2john.pl, or office2john, depending on file type).
 
-![image alt]()
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/hash_extractor.png)
+
 ### Cracking with John the Ripper
 Ran John the Ripper against the extracted hash, first using a wordlist attack and then, if necessary, incremental/brute-force mode. Monitored progress and recorded the time to crack.
 
 ### Cracking with Johnny
 Repeated the process using Johnny, JtR’s graphical interface, to compare usability and workflow against the command-line tool.
 
-![image alt]()
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/Johny_interface.png)
 ![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/file1.png?raw=true)
 
 ### Hash generation with NetworkWalks Hash Calculator
 Entered sample plaintext values and generated their corresponding hashes (e.g., MD5, SHA-1, SHA-256) to observe how different algorithms produce different outputs and how even a one-character change in input drastically changes the hash (the avalanche effect).
 
-![image alt]()
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/Networkwalks_hash_extractor.png)
 
 ### Hash cracking with NetworkWalks Password Cracker
 Submitted hash values to the tool to attempt plaintext recovery, comparing results against known password lists and common hash databases.
 
-![image alt]()
-![image alt]()
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/Networkwalks-tool.png)
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/file4.png)
 
 ### Analysis and documentation
 Compared cracking times and success rates across tools and password complexities, took screenshots as evidence, and compiled findings into a structured report with mitigation recommendations.
 
 ### Other cracked files
 
-![image alt]()
-![image alt]()
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/file2.png)
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-password-cracking/blob/main/file3.png)
 
 ## What I Learned
 
